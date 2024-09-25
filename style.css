@@ -1,0 +1,50 @@
+*{
+  background-color: bisque;
+}
+ul a{
+  background-color:rgb(224, 87, 46);
+}
+button:hover{
+  background-color: cornflowerblue;
+}
+[type]:hover{
+  background-color: rgb(81, 29, 126);
+}
+.container div{
+  border: 1px solid rgb(224, 87, 46);
+  padding: 10px;
+  width:100px;
+}
+.container{
+  display: flex;
+}
+.box-1{
+  flex:1;
+
+}
+.box-2{
+  flex:1;
+
+}
+.box-3{
+  flex:1;
+
+}
+
+@keyframes change-color{
+  0%{background-color: aqua;top: 10px;}
+  20%{background-color: burlywood;top: 30px;}
+  40%{background-color: brown;top: 60px;}
+ 60%{background-color: cadetblue;top: 80px;}
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  position: relative;
+
+}
+.box-animation:hover{
+  animation-name: change-color;
+  animation-duration:5s ;
+}
